@@ -1,0 +1,47 @@
+name: parkspace
+description: ParkSpace - Smart parking flutter app
+
+
+publish_to:
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons:
+  google_maps_flutter:
+  geolocator:
+  url_launcher:
+  http:
+  firebase_core:
+  firebase_auth:
+  cloud_firestore:
+  #firebase_analytics:
+  google_fonts:
+  font_awesome_flutter:
+  line_icons:
+  sliding_up_panel:
+  flutter_sparkline:
+  firebase_database:
+  syncfusion_flutter_charts: 20.3.49
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/Logo.png
+    - assets/map_style.json
+    - assets/icon.png
+    - assets/car.png
+    - assets/time.png
+
