@@ -475,4 +475,5 @@ class _UserScreenState extends State<UserScreen> {
   //  );
   }
 }
+
 String searchAddress;
